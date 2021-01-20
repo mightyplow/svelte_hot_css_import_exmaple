@@ -1,0 +1,23 @@
+{
+  "name": "svelte_hot_css_import_exmaple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -w -c rollup.config.dev.js & python3 -m http.server 8080"
+  },
+  "keywords": [],
+  "author": "mightyplow <mightyplow@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "postcss": "^8.2.4",
+    "postcss-import": "^14.0.0",
+    "rollup": "^2.37.1",
+    "rollup-plugin-hot": "^0.1.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte-hot": "^0.13.0",
+    "svelte": "^3.31.2",
+    "svelte-preprocess": "^4.6.1"
+  }
+}
